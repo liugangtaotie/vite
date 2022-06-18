@@ -1,3 +1,14 @@
+## 3.0.0-alpha.13 (2022-06-18)
+
+* feat: legacy options to revert to v2 strategies (#8623) ([993b842](https://github.com/vitejs/vite/commit/993b842)), closes [#8623](https://github.com/vitejs/vite/issues/8623)
+* fix: filter of BOM tags in json plugin (#8628) ([e10530b](https://github.com/vitejs/vite/commit/e10530b)), closes [#8628](https://github.com/vitejs/vite/issues/8628)
+* fix(optimizer): use simple browser external shim in prod (#8630) ([a32c4ba](https://github.com/vitejs/vite/commit/a32c4ba)), closes [#8630](https://github.com/vitejs/vite/issues/8630)
+* fix(server): skip localhost verbatim dns lookup (#8642) ([7632247](https://github.com/vitejs/vite/commit/7632247)), closes [#8642](https://github.com/vitejs/vite/issues/8642)
+* fix(wasm): support inlined WASM in Node < v16 (fix #8620) (#8622) ([f586b14](https://github.com/vitejs/vite/commit/f586b14)), closes [#8620](https://github.com/vitejs/vite/issues/8620) [#8622](https://github.com/vitejs/vite/issues/8622)
+* refactor: rename `force` to `optimizeDeps.force` (#8418) ([f520a54](https://github.com/vitejs/vite/commit/f520a54)), closes [#8418](https://github.com/vitejs/vite/issues/8418)
+
+
+
 ## 3.0.0-alpha.12 (2022-06-16)
 
 * chore: correct typo in console message (#8618) ([13d05bd](https://github.com/vitejs/vite/commit/13d05bd)), closes [#8618](https://github.com/vitejs/vite/issues/8618)
